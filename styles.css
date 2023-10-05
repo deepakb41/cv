@@ -47,6 +47,7 @@ body {
     text-align:center;
     font-family:georgia,serif;
     color:#444444;
+    overflow-x: hidden;
 }
 .left-cloud{
     position:absolute;
@@ -69,13 +70,13 @@ body {
 .flag{
     position:absolute;
     left: 35%;
-    top: 59%;
+    top: 61%;
     width:4vw;
 }
 .hiker{
     position: absolute;
     left: 25%;  /* relative to the container width */
-    top: 68%;   /* relative to the container height */
+    top: 70%;   /* relative to the container height */
     width: 3vw; /* relative to the viewport width */
     transform: rotate(-20deg);
 }
@@ -83,13 +84,13 @@ body {
 .eng{
     position:absolute;
     left:59%;
-    top:57%;
+    top:59%;
     width:4vw;
 }
 .data{
     position:absolute;
     left:57%;
-    top:51%;
+    top:53%;
     width:4vw;
 }
 .mountain{
@@ -227,11 +228,10 @@ p{
 .project-6-img{
     width:20%;
     margin-left:30px;
-    margin-bottom:30px;
+    margin-bottom:50px;
     margin-top:30px;
     float:right;
 }
-
 
 .contact-me{
     margin-bottom:25px;
@@ -253,7 +253,7 @@ p{
     margin:7px;
     }
 hr{
-    border-style: dotted None None None;
+    border-style:dotted None None None;
     width:8%;
     border-width:10px;
     border-color:#7F8C8D;
